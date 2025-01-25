@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-failed">Suite</span>
+              <span class="suite-name border-passed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -93,31 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">20 methods, 3 failed,   17 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
-                    </span>
-                    <div class="method-list-content failed suite-Suite">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="automatedtest.CapstoneProject" class="method navigator-link" hash-for-method="verifyHealthProgram_1">verifyHealthProgram_1</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="automatedtest.CapstoneProject" class="method navigator-link" hash-for-method="verifyHealthProgram_2">verifyHealthProgram_2</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="automatedtest.CapstoneProject" class="method navigator-link" hash-for-method="verifyHealthProgram_3">verifyHealthProgram_3</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Suite -->
+                    <span class="method-stats">20 methods,   20 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -164,6 +140,21 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="automatedtest.CapstoneProject" class="method navigator-link" hash-for-method="verifyForm">verifyForm</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="automatedtest.CapstoneProject" class="method navigator-link" hash-for-method="verifyHealthProgram_1">verifyHealthProgram_1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="automatedtest.CapstoneProject" class="method navigator-link" hash-for-method="verifyHealthProgram_2">verifyHealthProgram_2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="automatedtest.CapstoneProject" class="method navigator-link" hash-for-method="verifyHealthProgram_3">verifyHealthProgram_3</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -223,50 +214,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">automatedtest.CapstoneProject</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyHealthProgram_1">
-                  </a> <!-- verifyHealthProgram_1 -->
-                  <span class="method-name">verifyHealthProgram_1</span>
-                  <div class="stack-trace">java.lang.AssertionError: Content mismatch expected [TOBACCO] but found [Search results for: Health programs]
-	at automatedtest.CapstoneProject.verifyHealthProgram_1(CapstoneProject.java:209)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-... Removed 30 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyHealthProgram_2">
-                  </a> <!-- verifyHealthProgram_2 -->
-                  <span class="method-name">verifyHealthProgram_2</span>
-                  <div class="stack-trace">java.lang.AssertionError: Content mismatch expected [AHEC SCHOLARS] but found [Search results for: Health programs]
-	at automatedtest.CapstoneProject.verifyHealthProgram_2(CapstoneProject.java:233)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-... Removed 30 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyHealthProgram_3">
-                  </a> <!-- verifyHealthProgram_3 -->
-                  <span class="method-name">verifyHealthProgram_3</span>
-                  <div class="stack-trace">java.lang.AssertionError: Content mismatch expected [HEALTHY AGING] but found [Search results for: Health programs]
-	at automatedtest.CapstoneProject.verifyHealthProgram_3(CapstoneProject.java:257)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-... Removed 30 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -327,6 +274,27 @@
                   <a name="verifyForm">
                   </a> <!-- verifyForm -->
                   <span class="method-name">verifyForm</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyHealthProgram_1">
+                  </a> <!-- verifyHealthProgram_1 -->
+                  <span class="method-name">verifyHealthProgram_1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyHealthProgram_2">
+                  </a> <!-- verifyHealthProgram_2 -->
+                  <span class="method-name">verifyHealthProgram_2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyHealthProgram_3">
+                  </a> <!-- verifyHealthProgram_3 -->
+                  <span class="method-name">verifyHealthProgram_3</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -455,88 +423,88 @@ data.addRows(20);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'userLogin')
 data.setCell(0, 2, 'automatedtest.CapstoneProject')
-data.setCell(0, 3, 17440);
+data.setCell(0, 3, 16496);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'verifyNavigationMenu')
+data.setCell(1, 1, 'passwordRecovery')
 data.setCell(1, 2, 'automatedtest.CapstoneProject')
-data.setCell(1, 3, 9131);
+data.setCell(1, 3, 7117);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'passwordRecovery')
+data.setCell(2, 1, 'verifyHealthProgram_4')
 data.setCell(2, 2, 'automatedtest.CapstoneProject')
-data.setCell(2, 3, 7539);
+data.setCell(2, 3, 5689);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'verifyForm')
 data.setCell(3, 2, 'automatedtest.CapstoneProject')
-data.setCell(3, 3, 6520);
+data.setCell(3, 3, 4882);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'searchBarFunctionality')
+data.setCell(4, 1, 'verifyHealthProgram_2')
 data.setCell(4, 2, 'automatedtest.CapstoneProject')
-data.setCell(4, 3, 2175);
+data.setCell(4, 3, 2444);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'contactUsPageAddress')
+data.setCell(5, 1, 'searchBarFunctionality')
 data.setCell(5, 2, 'automatedtest.CapstoneProject')
-data.setCell(5, 3, 1726);
+data.setCell(5, 3, 2134);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'contactUsPageFax')
+data.setCell(6, 1, 'verifyHealthProgram_3')
 data.setCell(6, 2, 'automatedtest.CapstoneProject')
-data.setCell(6, 3, 952);
+data.setCell(6, 3, 1908);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'contactUsPageCallUs')
+data.setCell(7, 1, 'contactUsPageAddress')
 data.setCell(7, 2, 'automatedtest.CapstoneProject')
-data.setCell(7, 3, 941);
+data.setCell(7, 3, 1769);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'contactUsPageEmailUs')
+data.setCell(8, 1, 'verifyHealthProgram_1')
 data.setCell(8, 2, 'automatedtest.CapstoneProject')
-data.setCell(8, 3, 935);
+data.setCell(8, 3, 1555);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'verifyHealthProgram_4')
+data.setCell(9, 1, 'contactUsPageCallUs')
 data.setCell(9, 2, 'automatedtest.CapstoneProject')
-data.setCell(9, 3, 496);
+data.setCell(9, 3, 956);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'verifyHealthProgram_1')
+data.setCell(10, 1, 'contactUsPageEmailUs')
 data.setCell(10, 2, 'automatedtest.CapstoneProject')
-data.setCell(10, 3, 423);
+data.setCell(10, 3, 836);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'verifyHealthProgram_3')
+data.setCell(11, 1, 'contactUsPageFax')
 data.setCell(11, 2, 'automatedtest.CapstoneProject')
-data.setCell(11, 3, 395);
+data.setCell(11, 3, 825);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'verifyHealthProgram_2')
+data.setCell(12, 1, 'verifyNavigationMenu')
 data.setCell(12, 2, 'automatedtest.CapstoneProject')
-data.setCell(12, 3, 358);
+data.setCell(12, 3, 70);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'verifyNavigationElement_1')
+data.setCell(13, 1, 'verifyNavigationElement_4')
 data.setCell(13, 2, 'automatedtest.CapstoneProject')
-data.setCell(13, 3, 46);
+data.setCell(13, 3, 68);
 data.setCell(14, 0, 14)
-data.setCell(14, 1, 'verifyNavigationElement_2')
+data.setCell(14, 1, 'verifyNavigationElement_6')
 data.setCell(14, 2, 'automatedtest.CapstoneProject')
-data.setCell(14, 3, 36);
+data.setCell(14, 3, 63);
 data.setCell(15, 0, 15)
-data.setCell(15, 1, 'verifyNavigationElement_7')
+data.setCell(15, 1, 'verifyNavigationElement_5')
 data.setCell(15, 2, 'automatedtest.CapstoneProject')
-data.setCell(15, 3, 36);
+data.setCell(15, 3, 62);
 data.setCell(16, 0, 16)
-data.setCell(16, 1, 'verifyNavigationElement_5')
+data.setCell(16, 1, 'verifyNavigationElement_7')
 data.setCell(16, 2, 'automatedtest.CapstoneProject')
-data.setCell(16, 3, 35);
+data.setCell(16, 3, 58);
 data.setCell(17, 0, 17)
-data.setCell(17, 1, 'verifyNavigationElement_4')
+data.setCell(17, 1, 'verifyNavigationElement_2')
 data.setCell(17, 2, 'automatedtest.CapstoneProject')
-data.setCell(17, 3, 34);
+data.setCell(17, 3, 52);
 data.setCell(18, 0, 18)
 data.setCell(18, 1, 'verifyNavigationElement_3')
 data.setCell(18, 2, 'automatedtest.CapstoneProject')
-data.setCell(18, 3, 34);
+data.setCell(18, 3, 51);
 data.setCell(19, 0, 19)
-data.setCell(19, 1, 'verifyNavigationElement_6')
+data.setCell(19, 1, 'verifyNavigationElement_1')
 data.setCell(19, 2, 'automatedtest.CapstoneProject')
-data.setCell(19, 3, 32);
+data.setCell(19, 3, 50);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 49 seconds</span>
+              <span class="suite-total-time">Total running time: 47 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -569,93 +537,87 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">verifyNavigationMenu</span>
-                <span class="method-start">2600 ms</span>
+                <span class="method-start">12103 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyNavigationElement_1</span>
-                <span class="method-start">11740 ms</span>
+                <span class="method-start">12187 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyNavigationElement_2</span>
-                <span class="method-start">11790 ms</span>
+                <span class="method-start">12252 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyNavigationElement_3</span>
-                <span class="method-start">11830 ms</span>
+                <span class="method-start">12304 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyNavigationElement_4</span>
-                <span class="method-start">11867 ms</span>
+                <span class="method-start">12355 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyNavigationElement_5</span>
-                <span class="method-start">11905 ms</span>
+                <span class="method-start">12423 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyNavigationElement_6</span>
-                <span class="method-start">11943 ms</span>
+                <span class="method-start">12485 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyNavigationElement_7</span>
-                <span class="method-start">11979 ms</span>
+                <span class="method-start">12554 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">searchBarFunctionality</span>
-                <span class="method-start">12018 ms</span>
+                <span class="method-start">12612 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">verifyHealthProgram_1</span>
-                <span class="method-start">14202 ms</span>
+                <span class="method-start">14747 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">verifyHealthProgram_2</span>
-                <span class="method-start">14630 ms</span>
+                <span class="method-start">16302 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">verifyHealthProgram_3</span>
-                <span class="method-start">14992 ms</span>
+                <span class="method-start">18752 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyHealthProgram_4</span>
-                <span class="method-start">15391 ms</span>
+                <span class="method-start">20663 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">contactUsPageAddress</span>
-                <span class="method-start">15890 ms</span>
+                <span class="method-start">26352 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">contactUsPageCallUs</span>
-                <span class="method-start">17618 ms</span>
+                <span class="method-start">28121 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">contactUsPageFax</span>
-                <span class="method-start">18561 ms</span>
+                <span class="method-start">29079 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">contactUsPageEmailUs</span>
-                <span class="method-start">19515 ms</span>
+                <span class="method-start">29918 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyForm</span>
-                <span class="method-start">20452 ms</span>
+                <span class="method-start">30754 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">userLogin</span>
-                <span class="method-start">26974 ms</span>
+                <span class="method-start">35636 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">passwordRecovery</span>
-                <span class="method-start">44417 ms</span>
+                <span class="method-start">52133 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">51961 ms</span>
+                <span class="method-start">59252 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

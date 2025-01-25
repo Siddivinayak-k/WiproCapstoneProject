@@ -184,6 +184,7 @@ public class CapstoneProject {
 			String searchResult = driver.findElement(By.xpath("//h1[@class='entry-title']")).getText();
 			assertEquals(searchResult, "Search results for: Health programs", "Search function is not working");
 			test.log(Status.PASS, "Search functionality works as expected");
+			driver.navigate().back();
 		} catch (Exception e) {
 			test.log(Status.FAIL, "Search functionality test failed: " + e.getMessage());
 			try {
