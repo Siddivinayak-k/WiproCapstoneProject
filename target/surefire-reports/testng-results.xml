@@ -2,96 +2,96 @@
 <testng-results ignored="0" total="20" passed="20" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-25T21:11:43 IST" name="Suite" finished-at="2025-01-25T21:12:42 IST" duration-ms="59041">
+  <suite started-at="2025-01-25T21:55:11 IST" name="Suite" finished-at="2025-01-25T21:56:07 IST" duration-ms="55910">
     <groups>
     </groups>
-    <test started-at="2025-01-25T21:11:43 IST" name="Test" finished-at="2025-01-25T21:12:42 IST" duration-ms="59041">
+    <test started-at="2025-01-25T21:55:11 IST" name="Test" finished-at="2025-01-25T21:56:07 IST" duration-ms="55910">
       <class name="automatedtest.CapstoneProject">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:automatedtest.CapstoneProject@759d26fb]" started-at="2025-01-25T21:11:43 IST" name="setUp" finished-at="2025-01-25T21:11:54 IST" duration-ms="11334" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:automatedtest.CapstoneProject@759d26fb]" started-at="2025-01-25T21:55:11 IST" name="setUp" finished-at="2025-01-25T21:55:17 IST" duration-ms="5776" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyNavigationMenu()[pri:1, instance:automatedtest.CapstoneProject@759d26fb]" started-at="2025-01-25T21:11:54 IST" name="verifyNavigationMenu" finished-at="2025-01-25T21:11:54 IST" duration-ms="98" status="PASS">
+        <test-method signature="verifyNavigationMenu()[pri:1, instance:automatedtest.CapstoneProject@759d26fb]" started-at="2025-01-25T21:55:17 IST" name="verifyNavigationMenu" finished-at="2025-01-25T21:55:17 IST" duration-ms="122" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyNavigationMenu -->
-        <test-method signature="verifyNavigationElement_1()[pri:2, instance:automatedtest.CapstoneProject@759d26fb]" started-at="2025-01-25T21:11:54 IST" name="verifyNavigationElement_1" finished-at="2025-01-25T21:11:54 IST" duration-ms="65" status="PASS">
+        <test-method signature="verifyNavigationElement_1()[pri:2, instance:automatedtest.CapstoneProject@759d26fb]" started-at="2025-01-25T21:55:17 IST" name="verifyNavigationElement_1" finished-at="2025-01-25T21:55:17 IST" duration-ms="26" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyNavigationElement_1 -->
-        <test-method signature="verifyNavigationElement_2()[pri:3, instance:automatedtest.CapstoneProject@759d26fb]" started-at="2025-01-25T21:11:54 IST" name="verifyNavigationElement_2" finished-at="2025-01-25T21:11:55 IST" duration-ms="83" status="PASS">
+        <test-method signature="verifyNavigationElement_2()[pri:3, instance:automatedtest.CapstoneProject@759d26fb]" started-at="2025-01-25T21:55:17 IST" name="verifyNavigationElement_2" finished-at="2025-01-25T21:55:17 IST" duration-ms="23" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyNavigationElement_2 -->
-        <test-method signature="verifyNavigationElement_3()[pri:4, instance:automatedtest.CapstoneProject@759d26fb]" started-at="2025-01-25T21:11:55 IST" name="verifyNavigationElement_3" finished-at="2025-01-25T21:11:55 IST" duration-ms="78" status="PASS">
+        <test-method signature="verifyNavigationElement_3()[pri:4, instance:automatedtest.CapstoneProject@759d26fb]" started-at="2025-01-25T21:55:17 IST" name="verifyNavigationElement_3" finished-at="2025-01-25T21:55:17 IST" duration-ms="20" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyNavigationElement_3 -->
-        <test-method signature="verifyNavigationElement_4()[pri:5, instance:automatedtest.CapstoneProject@759d26fb]" started-at="2025-01-25T21:11:55 IST" name="verifyNavigationElement_4" finished-at="2025-01-25T21:11:55 IST" duration-ms="35" status="PASS">
+        <test-method signature="verifyNavigationElement_4()[pri:5, instance:automatedtest.CapstoneProject@759d26fb]" started-at="2025-01-25T21:55:17 IST" name="verifyNavigationElement_4" finished-at="2025-01-25T21:55:17 IST" duration-ms="19" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyNavigationElement_4 -->
-        <test-method signature="verifyNavigationElement_5()[pri:6, instance:automatedtest.CapstoneProject@759d26fb]" started-at="2025-01-25T21:11:55 IST" name="verifyNavigationElement_5" finished-at="2025-01-25T21:11:55 IST" duration-ms="49" status="PASS">
+        <test-method signature="verifyNavigationElement_5()[pri:6, instance:automatedtest.CapstoneProject@759d26fb]" started-at="2025-01-25T21:55:17 IST" name="verifyNavigationElement_5" finished-at="2025-01-25T21:55:17 IST" duration-ms="18" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyNavigationElement_5 -->
-        <test-method signature="verifyNavigationElement_6()[pri:7, instance:automatedtest.CapstoneProject@759d26fb]" started-at="2025-01-25T21:11:55 IST" name="verifyNavigationElement_6" finished-at="2025-01-25T21:11:55 IST" duration-ms="66" status="PASS">
+        <test-method signature="verifyNavigationElement_6()[pri:7, instance:automatedtest.CapstoneProject@759d26fb]" started-at="2025-01-25T21:55:17 IST" name="verifyNavigationElement_6" finished-at="2025-01-25T21:55:17 IST" duration-ms="21" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyNavigationElement_6 -->
-        <test-method signature="verifyNavigationElement_7()[pri:8, instance:automatedtest.CapstoneProject@759d26fb]" started-at="2025-01-25T21:11:55 IST" name="verifyNavigationElement_7" finished-at="2025-01-25T21:11:55 IST" duration-ms="42" status="PASS">
+        <test-method signature="verifyNavigationElement_7()[pri:8, instance:automatedtest.CapstoneProject@759d26fb]" started-at="2025-01-25T21:55:17 IST" name="verifyNavigationElement_7" finished-at="2025-01-25T21:55:17 IST" duration-ms="20" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyNavigationElement_7 -->
-        <test-method signature="searchBarFunctionality()[pri:9, instance:automatedtest.CapstoneProject@759d26fb]" started-at="2025-01-25T21:11:55 IST" name="searchBarFunctionality" finished-at="2025-01-25T21:11:57 IST" duration-ms="2212" status="PASS">
+        <test-method signature="searchBarFunctionality()[pri:9, instance:automatedtest.CapstoneProject@759d26fb]" started-at="2025-01-25T21:55:17 IST" name="searchBarFunctionality" finished-at="2025-01-25T21:55:19 IST" duration-ms="2135" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchBarFunctionality -->
-        <test-method signature="verifyHealthProgram_1()[pri:10, instance:automatedtest.CapstoneProject@759d26fb]" started-at="2025-01-25T21:11:57 IST" name="verifyHealthProgram_1" finished-at="2025-01-25T21:11:59 IST" duration-ms="1750" status="PASS">
+        <test-method signature="verifyHealthProgram_1()[pri:10, instance:automatedtest.CapstoneProject@759d26fb]" started-at="2025-01-25T21:55:19 IST" name="verifyHealthProgram_1" finished-at="2025-01-25T21:55:21 IST" duration-ms="1756" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHealthProgram_1 -->
-        <test-method signature="verifyHealthProgram_2()[pri:11, instance:automatedtest.CapstoneProject@759d26fb]" started-at="2025-01-25T21:11:59 IST" name="verifyHealthProgram_2" finished-at="2025-01-25T21:12:01 IST" duration-ms="2679" status="PASS">
+        <test-method signature="verifyHealthProgram_2()[pri:11, instance:automatedtest.CapstoneProject@759d26fb]" started-at="2025-01-25T21:55:21 IST" name="verifyHealthProgram_2" finished-at="2025-01-25T21:55:24 IST" duration-ms="3148" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHealthProgram_2 -->
-        <test-method signature="verifyHealthProgram_3()[pri:12, instance:automatedtest.CapstoneProject@759d26fb]" started-at="2025-01-25T21:12:01 IST" name="verifyHealthProgram_3" finished-at="2025-01-25T21:12:04 IST" duration-ms="2052" status="PASS">
+        <test-method signature="verifyHealthProgram_3()[pri:12, instance:automatedtest.CapstoneProject@759d26fb]" started-at="2025-01-25T21:55:24 IST" name="verifyHealthProgram_3" finished-at="2025-01-25T21:55:27 IST" duration-ms="2487" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHealthProgram_3 -->
-        <test-method signature="verifyHealthProgram_4()[pri:13, instance:automatedtest.CapstoneProject@759d26fb]" started-at="2025-01-25T21:12:04 IST" name="verifyHealthProgram_4" finished-at="2025-01-25T21:12:08 IST" duration-ms="4696" status="PASS">
+        <test-method signature="verifyHealthProgram_4()[pri:13, instance:automatedtest.CapstoneProject@759d26fb]" started-at="2025-01-25T21:55:27 IST" name="verifyHealthProgram_4" finished-at="2025-01-25T21:55:31 IST" duration-ms="4474" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHealthProgram_4 -->
-        <test-method signature="contactUsPageAddress()[pri:14, instance:automatedtest.CapstoneProject@759d26fb]" started-at="2025-01-25T21:12:08 IST" name="contactUsPageAddress" finished-at="2025-01-25T21:12:10 IST" duration-ms="1868" status="PASS">
+        <test-method signature="contactUsPageAddress()[pri:14, instance:automatedtest.CapstoneProject@759d26fb]" started-at="2025-01-25T21:55:31 IST" name="contactUsPageAddress" finished-at="2025-01-25T21:55:34 IST" duration-ms="3411" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contactUsPageAddress -->
-        <test-method signature="contactUsPageCallUs()[pri:15, instance:automatedtest.CapstoneProject@759d26fb]" started-at="2025-01-25T21:12:10 IST" name="contactUsPageCallUs" finished-at="2025-01-25T21:12:11 IST" duration-ms="845" status="PASS">
+        <test-method signature="contactUsPageCallUs()[pri:15, instance:automatedtest.CapstoneProject@759d26fb]" started-at="2025-01-25T21:55:34 IST" name="contactUsPageCallUs" finished-at="2025-01-25T21:55:35 IST" duration-ms="950" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contactUsPageCallUs -->
-        <test-method signature="contactUsPageFax()[pri:16, instance:automatedtest.CapstoneProject@759d26fb]" started-at="2025-01-25T21:12:11 IST" name="contactUsPageFax" finished-at="2025-01-25T21:12:12 IST" duration-ms="829" status="PASS">
+        <test-method signature="contactUsPageFax()[pri:16, instance:automatedtest.CapstoneProject@759d26fb]" started-at="2025-01-25T21:55:35 IST" name="contactUsPageFax" finished-at="2025-01-25T21:55:36 IST" duration-ms="939" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contactUsPageFax -->
-        <test-method signature="contactUsPageEmailUs()[pri:17, instance:automatedtest.CapstoneProject@759d26fb]" started-at="2025-01-25T21:12:12 IST" name="contactUsPageEmailUs" finished-at="2025-01-25T21:12:13 IST" duration-ms="810" status="PASS">
+        <test-method signature="contactUsPageEmailUs()[pri:17, instance:automatedtest.CapstoneProject@759d26fb]" started-at="2025-01-25T21:55:36 IST" name="contactUsPageEmailUs" finished-at="2025-01-25T21:55:37 IST" duration-ms="920" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contactUsPageEmailUs -->
-        <test-method signature="verifyForm()[pri:18, instance:automatedtest.CapstoneProject@759d26fb]" started-at="2025-01-25T21:12:13 IST" name="verifyForm" finished-at="2025-01-25T21:12:17 IST" duration-ms="4773" status="PASS">
+        <test-method signature="verifyForm()[pri:18, instance:automatedtest.CapstoneProject@759d26fb]" started-at="2025-01-25T21:55:37 IST" name="verifyForm" finished-at="2025-01-25T21:55:42 IST" duration-ms="4465" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyForm -->
-        <test-method signature="userLogin()[pri:19, instance:automatedtest.CapstoneProject@759d26fb]" started-at="2025-01-25T21:12:17 IST" name="userLogin" finished-at="2025-01-25T21:12:34 IST" duration-ms="16179" status="PASS">
+        <test-method signature="userLogin()[pri:19, instance:automatedtest.CapstoneProject@759d26fb]" started-at="2025-01-25T21:55:42 IST" name="userLogin" finished-at="2025-01-25T21:55:59 IST" duration-ms="16809" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userLogin -->
-        <test-method signature="passwordRecovery()[pri:20, instance:automatedtest.CapstoneProject@759d26fb]" started-at="2025-01-25T21:12:34 IST" name="passwordRecovery" finished-at="2025-01-25T21:12:41 IST" duration-ms="7484" status="PASS">
+        <test-method signature="passwordRecovery()[pri:20, instance:automatedtest.CapstoneProject@759d26fb]" started-at="2025-01-25T21:55:59 IST" name="passwordRecovery" finished-at="2025-01-25T21:56:06 IST" duration-ms="7323" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- passwordRecovery -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:automatedtest.CapstoneProject@759d26fb]" started-at="2025-01-25T21:12:41 IST" name="tearDown" finished-at="2025-01-25T21:12:42 IST" duration-ms="872" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automatedtest.CapstoneProject@759d26fb]" started-at="2025-01-25T21:56:06 IST" name="tearDown" finished-at="2025-01-25T21:56:07 IST" duration-ms="985" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
