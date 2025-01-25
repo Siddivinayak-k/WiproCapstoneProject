@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="20" passed="17" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-25T14:14:22 IST" name="Suite" finished-at="2025-01-25T14:15:15 IST" duration-ms="52968">
+    <groups>
+    </groups>
+    <test started-at="2025-01-25T14:14:22 IST" name="Test" finished-at="2025-01-25T14:15:15 IST" duration-ms="52968">
+      <class name="automatedtest.CapstoneProject">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:automatedtest.CapstoneProject@26794848]" started-at="2025-01-25T14:14:22 IST" name="setUp" finished-at="2025-01-25T14:14:25 IST" duration-ms="2586" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyNavigationMenu()[pri:1, instance:automatedtest.CapstoneProject@26794848]" started-at="2025-01-25T14:14:25 IST" name="verifyNavigationMenu" finished-at="2025-01-25T14:14:34 IST" duration-ms="9131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNavigationMenu -->
+        <test-method signature="verifyNavigationElement_1()[pri:2, instance:automatedtest.CapstoneProject@26794848]" started-at="2025-01-25T14:14:34 IST" name="verifyNavigationElement_1" finished-at="2025-01-25T14:14:34 IST" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNavigationElement_1 -->
+        <test-method signature="verifyNavigationElement_2()[pri:3, instance:automatedtest.CapstoneProject@26794848]" started-at="2025-01-25T14:14:34 IST" name="verifyNavigationElement_2" finished-at="2025-01-25T14:14:34 IST" duration-ms="36" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNavigationElement_2 -->
+        <test-method signature="verifyNavigationElement_3()[pri:4, instance:automatedtest.CapstoneProject@26794848]" started-at="2025-01-25T14:14:34 IST" name="verifyNavigationElement_3" finished-at="2025-01-25T14:14:34 IST" duration-ms="34" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNavigationElement_3 -->
+        <test-method signature="verifyNavigationElement_4()[pri:5, instance:automatedtest.CapstoneProject@26794848]" started-at="2025-01-25T14:14:34 IST" name="verifyNavigationElement_4" finished-at="2025-01-25T14:14:34 IST" duration-ms="34" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNavigationElement_4 -->
+        <test-method signature="verifyNavigationElement_5()[pri:6, instance:automatedtest.CapstoneProject@26794848]" started-at="2025-01-25T14:14:34 IST" name="verifyNavigationElement_5" finished-at="2025-01-25T14:14:34 IST" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNavigationElement_5 -->
+        <test-method signature="verifyNavigationElement_6()[pri:7, instance:automatedtest.CapstoneProject@26794848]" started-at="2025-01-25T14:14:34 IST" name="verifyNavigationElement_6" finished-at="2025-01-25T14:14:34 IST" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNavigationElement_6 -->
+        <test-method signature="verifyNavigationElement_7()[pri:8, instance:automatedtest.CapstoneProject@26794848]" started-at="2025-01-25T14:14:34 IST" name="verifyNavigationElement_7" finished-at="2025-01-25T14:14:34 IST" duration-ms="36" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNavigationElement_7 -->
+        <test-method signature="searchBarFunctionality()[pri:9, instance:automatedtest.CapstoneProject@26794848]" started-at="2025-01-25T14:14:34 IST" name="searchBarFunctionality" finished-at="2025-01-25T14:14:37 IST" duration-ms="2175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchBarFunctionality -->
+        <test-method signature="verifyHealthProgram_1()[pri:10, instance:automatedtest.CapstoneProject@26794848]" started-at="2025-01-25T14:14:37 IST" name="verifyHealthProgram_1" finished-at="2025-01-25T14:14:37 IST" duration-ms="423" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Content mismatch expected [TOBACCO] but found [Search results for: Health programs]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Content mismatch expected [TOBACCO] but found [Search results for: Health programs]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at automatedtest.CapstoneProject.verifyHealthProgram_1(CapstoneProject.java:209)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHealthProgram_1 -->
+        <test-method signature="verifyHealthProgram_2()[pri:11, instance:automatedtest.CapstoneProject@26794848]" started-at="2025-01-25T14:14:37 IST" name="verifyHealthProgram_2" finished-at="2025-01-25T14:14:37 IST" duration-ms="358" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Content mismatch expected [AHEC SCHOLARS] but found [Search results for: Health programs]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Content mismatch expected [AHEC SCHOLARS] but found [Search results for: Health programs]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at automatedtest.CapstoneProject.verifyHealthProgram_2(CapstoneProject.java:233)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHealthProgram_2 -->
+        <test-method signature="verifyHealthProgram_3()[pri:12, instance:automatedtest.CapstoneProject@26794848]" started-at="2025-01-25T14:14:37 IST" name="verifyHealthProgram_3" finished-at="2025-01-25T14:14:38 IST" duration-ms="395" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Content mismatch expected [HEALTHY AGING] but found [Search results for: Health programs]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Content mismatch expected [HEALTHY AGING] but found [Search results for: Health programs]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at automatedtest.CapstoneProject.verifyHealthProgram_3(CapstoneProject.java:257)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHealthProgram_3 -->
+        <test-method signature="verifyHealthProgram_4()[pri:13, instance:automatedtest.CapstoneProject@26794848]" started-at="2025-01-25T14:14:38 IST" name="verifyHealthProgram_4" finished-at="2025-01-25T14:14:38 IST" duration-ms="496" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHealthProgram_4 -->
+        <test-method signature="contactUsPageAddress()[pri:14, instance:automatedtest.CapstoneProject@26794848]" started-at="2025-01-25T14:14:38 IST" name="contactUsPageAddress" finished-at="2025-01-25T14:14:40 IST" duration-ms="1726" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactUsPageAddress -->
+        <test-method signature="contactUsPageCallUs()[pri:15, instance:automatedtest.CapstoneProject@26794848]" started-at="2025-01-25T14:14:40 IST" name="contactUsPageCallUs" finished-at="2025-01-25T14:14:41 IST" duration-ms="941" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactUsPageCallUs -->
+        <test-method signature="contactUsPageFax()[pri:16, instance:automatedtest.CapstoneProject@26794848]" started-at="2025-01-25T14:14:41 IST" name="contactUsPageFax" finished-at="2025-01-25T14:14:42 IST" duration-ms="952" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactUsPageFax -->
+        <test-method signature="contactUsPageEmailUs()[pri:17, instance:automatedtest.CapstoneProject@26794848]" started-at="2025-01-25T14:14:42 IST" name="contactUsPageEmailUs" finished-at="2025-01-25T14:14:43 IST" duration-ms="935" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactUsPageEmailUs -->
+        <test-method signature="verifyForm()[pri:18, instance:automatedtest.CapstoneProject@26794848]" started-at="2025-01-25T14:14:43 IST" name="verifyForm" finished-at="2025-01-25T14:14:49 IST" duration-ms="6520" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyForm -->
+        <test-method signature="userLogin()[pri:19, instance:automatedtest.CapstoneProject@26794848]" started-at="2025-01-25T14:14:49 IST" name="userLogin" finished-at="2025-01-25T14:15:07 IST" duration-ms="17440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userLogin -->
+        <test-method signature="passwordRecovery()[pri:20, instance:automatedtest.CapstoneProject@26794848]" started-at="2025-01-25T14:15:07 IST" name="passwordRecovery" finished-at="2025-01-25T14:15:14 IST" duration-ms="7539" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passwordRecovery -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automatedtest.CapstoneProject@26794848]" started-at="2025-01-25T14:15:14 IST" name="tearDown" finished-at="2025-01-25T14:15:15 IST" duration-ms="988" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- automatedtest.CapstoneProject -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
