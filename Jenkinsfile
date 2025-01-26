@@ -1,32 +1,62 @@
 pipeline {
     agent any
 
-    tools {
-        maven 'MyMaven'
-        jdk 'MyJava'
+    environment {
+        MAVEN_HOME = tool name: 'Maven 3.9.9', type: 'maven'
     }
 
     stages {
-      stage('Checkout') {
+        stage('Checkout') {
             steps {
-                // Clone the repository
                 git branch: 'master', url: 'https://github.com/Siddivinayak-k/WiproCapstoneProject.git'
             }
         }
-        
-        stage('Build and Test') {
-          steps {
-              // Run Maven command to test
-              sh 'mvn clean test'
-          }
+
+        stage('Build') {
+            steps {
+                withMaven(maven: 'Maven 3.9.9') {
+                    sh 'mvn clean install'
+                }
+            }
+        }
+
+        stage('Run Tests') {
+            steps {
+                sh 'mvn test'
+            }
+        }
+
+        stage('Generate Reports') {
+            steps {
+                publishHTML(target: [
+                    allowMissing: false,
+                    alwaysLinkToLastBuild: true,
+                    keepAll: true,
+                    reportDir: 'target/surefire-reports',
+                    reportFiles: 'index.html',
+                    reportName: 'Test Report'
+                ])
+            }
+        }
+
+        stage('Deploy to Staging') {
+            steps {
+                sh './scripts/deploy-to-staging.sh'
+            }
         }
     }
+
     post {
-        // If Maven was able to run the tests, even if some of the test
-        // failed, record the test results and archive the jar file.
         success {
-            junit '**/target/surefire-reports/TEST-*.xml'
-            archiveArtifacts 'target/*.jar'
+            mail to: 'your-email@example.com',
+                subject: 'Build Successful',
+                body: 'The build and deployment were successful!'
+        }
+
+        failure {
+            mail to: 'your-email@example.com',
+                subject: 'Build Failed',
+                body: 'The build or deployment failed. Please check Jenkins for details.'
         }
     }
 }
