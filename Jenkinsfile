@@ -1,9 +1,12 @@
 pipeline {
     agent any
 
-    environment {
-        MAVEN_HOME = tool name: 'Maven 3.9.9', type: 'maven'
+    tools {
+
+        maven 'MyMaven'
+        jdk 'MyJava'
     }
+    
 
     stages {
         stage('Checkout') {
@@ -48,13 +51,13 @@ pipeline {
 
     post {
         success {
-            mail to: 'your-email@example.com',
+            mail to: 'siddivinayakkotabagi@gmail.com',
                 subject: 'Build Successful',
                 body: 'The build and deployment were successful!'
         }
 
         failure {
-            mail to: 'your-email@example.com',
+            mail to: 'siddivinayakkotabagi@gmail.com',
                 subject: 'Build Failed',
                 body: 'The build or deployment failed. Please check Jenkins for details.'
         }
