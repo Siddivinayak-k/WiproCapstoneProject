@@ -66,11 +66,9 @@ public class NavigationSteps {
 	    for(String id : ids) {
 	    	programs.add(driver.findElement(By.id(id)));
 	    }
-	    System.out.println(programs.get(0).getText());
 	    WebElement clickElement = null;
         for (WebElement ele : programs) {
             if (ele.getText().contentEquals(string)) {
-            	System.out.println(ele.getText());
                 clickElement = ele;
                 break;
             }

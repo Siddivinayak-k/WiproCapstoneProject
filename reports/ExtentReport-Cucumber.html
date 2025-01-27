@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary"></span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Jan 24, 2025 10:07:50 pm</span></a>
+<a href="#"><span class="badge badge-primary">Jan 27, 2025 01:28:55 am</span></a>
 </li>
 </ul>
 </div>
@@ -79,9 +79,9 @@
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">Navigation and Access to Health Programs</p>
+            <p class="name">Contact Form Submission</p>
             <p class="text-sm">
-              <span>10:07:51 pm</span> / <span>00:00:23:100</span>
+              <span>1:28:55 am</span> / <span>00:00:34:221</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -89,10 +89,10 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">Navigation and Access to Health Programs</h5>
-<span class='badge badge-success'>01.24.2025 10:07:51 pm</span>
-<span class='badge badge-danger'>01.24.2025 10:08:14 pm</span>
-<span class='badge badge-default'>00:00:23:100</span>
+<h5 class="test-status text-pass">Contact Form Submission</h5>
+<span class='badge badge-success'>01.27.2025 1:28:55 am</span>
+<span class='badge badge-danger'>01.27.2025 1:29:29 am</span>
+<span class='badge badge-default'>00:00:34:221</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -104,7 +104,139 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>Navigate to Health Programs</div>
+        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>Successful Form Submission with Valid Data</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepdefinitions.FormSubmissionSteps.i_am_on_the_form_page1()">
+                <span>Given I am on the form page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinitions.FormSubmissionSteps.i_enter_as_first_name_as_last_name_as_phone_number_and_as_email(java.lang.String,java.lang.String,java.lang.String,java.lang.String)">
+                <span>When I enter "John Doe" as first name, "Doe" as last name, "9234567890" as phone number, and "johndoe@gmail.com" as email</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinitions.FormSubmissionSteps.i_select_and_as_programs_of_interest()">
+                <span>And I select Tai Chi for Arthritis and Living Healthy (Chronic Disease Self-Management) as programs of interest</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinitions.FormSubmissionSteps.i_select_as_my_county()">
+                <span>And I select Santa Rosa as my county</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinitions.FormSubmissionSteps.i_select_as_my_preferred_class_format()">
+                <span>And I select Virtual as my preferred class format</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinitions.FormSubmissionSteps.i_select_option()">
+                <span>And I select I am best described as: option</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinitions.FormSubmissionSteps.i_enter_text(java.lang.String)">
+                <span>And I enter "Internet" in Please help us by telling us where you heard about us:</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinitions.FormSubmissionSteps.i_select_the_checkbox_i_would_like_to_be_notified_by_email_when_classes_are_available_in_my_area()">
+                <span>And I select the checkbox I would like to be notified by email when classes are available in my area</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinitions.FormSubmissionSteps.i_click_on_the_button()">
+                <span>And I click on the submit button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinitions.FormSubmissionSteps.the_form_should_be_submitted_successfully()">
+                <span>Then the form should be submitted successfully message should be displayed</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="14"><span class="badge log pass-bg mr-2">Pass</span>Form Submission with Missing Required Fields</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepdefinitions.FormSubmissionSteps.i_am_on_the_form_page1()">
+                <span>Given I am on the form page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinitions.FormSubmissionSteps.i_leave_the_name_field_empty()">
+                <span>When I leave the NAME field empty</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinitions.FormSubmissionSteps.i_leave_phone_field_empty()">
+                <span>And I leave PHONE field empty</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinitions.FormSubmissionSteps.i_leave_email_field_empty()">
+                <span>And I leave EMAIL field empty</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinitions.FormSubmissionSteps.i_click_on_the_button()">
+                <span>And I click on the submit button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinitions.FormSubmissionSteps.an_error_message_should_be_displayed_for_the_missing_fields()">
+                <span>Then an error message should be displayed for the missing fields</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="22"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Navigation and Access to Health Programs</p>
+            <p class="text-sm">
+              <span>1:29:29 am</span> / <span>00:00:31:246</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Navigation and Access to Health Programs</h5>
+<span class='badge badge-success'>01.27.2025 1:29:29 am</span>
+<span class='badge badge-danger'>01.27.2025 1:30:01 am</span>
+<span class='badge badge-default'>00:00:31:246</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=22</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="23"><span class="badge log pass-bg mr-2">Pass</span>Navigate to Health Programs</div>
       </div>
     </div>
         <div class="collapse">
@@ -130,7 +262,7 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="7"><span class="badge log pass-bg mr-2">Pass</span>Access Program Details</div>
+        <div class="node" id="28"><span class="badge log pass-bg mr-2">Pass</span>Access Program Details</div>
       </div>
     </div>
         <div class="collapse">
@@ -156,14 +288,14 @@
 </div>
           </div>
         </li>
-        <li class="test-item"  status="pass" test-id="12"
+        <li class="test-item"  status="pass" test-id="33"
           author=""
           tag=""
           device="">
           <div class="test-detail">
             <p class="name">User Login</p>
             <p class="text-sm">
-              <span>10:08:14 pm</span> / <span>00:02:05:301</span>
+              <span>1:30:01 am</span> / <span>00:00:49:099</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -172,10 +304,10 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">User Login</h5>
-<span class='badge badge-success'>01.24.2025 10:08:14 pm</span>
-<span class='badge badge-danger'>01.24.2025 10:10:19 pm</span>
-<span class='badge badge-default'>00:02:05:301</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=12</span>
+<span class='badge badge-success'>01.27.2025 1:30:01 am</span>
+<span class='badge badge-danger'>01.27.2025 1:30:50 am</span>
+<span class='badge badge-default'>00:00:49:099</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=33</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
 </div>
@@ -186,7 +318,7 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="13"><span class="badge log pass-bg mr-2">Pass</span>Login with registered credentials</div>
+        <div class="node" id="34"><span class="badge log pass-bg mr-2">Pass</span>Login with registered credentials</div>
       </div>
     </div>
         <div class="collapse">
@@ -217,7 +349,7 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="19"><span class="badge log pass-bg mr-2">Pass</span>Login with invalid credentials</div>
+        <div class="node" id="40"><span class="badge log pass-bg mr-2">Pass</span>Login with invalid credentials</div>
       </div>
     </div>
         <div class="collapse">
@@ -248,7 +380,7 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="25"><span class="badge log pass-bg mr-2">Pass</span>Login with forgotten password</div>
+        <div class="node" id="46"><span class="badge log pass-bg mr-2">Pass</span>Login with forgotten password</div>
       </div>
     </div>
         <div class="collapse">
@@ -298,19 +430,19 @@
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Jan 24, 2025 10:07:50 pm</h3>
+<h3>Jan 27, 2025 01:28:55 am</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Jan 24, 2025 10:10:19 pm</h3>
+<h3>Jan 27, 2025 01:30:50 am</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-pass">Features Passed</p>
-<h3>2</h3>
+<h3>3</h3>
 </div></div>
 </div>
 <div class="col-md-3">
@@ -333,7 +465,7 @@
 </div>
 <div class="card-footer">
 <div><small data-tooltip='100%'>
-<b>2</b> features passed
+<b>3</b> features passed
 </small>
 </div>
 <div>
@@ -355,7 +487,7 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='100%'><b>5</b> scenarios passed</small></div>
+<div><small data-tooltip='100%'><b>7</b> scenarios passed</small></div>
 <div>
 <small data-tooltip='0%'><b>0</b> scenarios failed,
 <b>0</b> skipped, <b data-tooltip='%'>0</b> others
@@ -375,7 +507,7 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='100%'><b>19</b> steps passed</small></div>
+<div><small data-tooltip='100%'><b>35</b> steps passed</small></div>
 <div>
 <small data-tooltip='0%'><b>0</b> steps failed,
 <b>0</b> skipped, <b data-tooltip='%'>0</b> others
@@ -394,7 +526,7 @@
 </div></div>
 <script>
 var timeline = {
-"Navigation and Access to Health Programs":23.1,"User Login":125.301
+"Contact Form Submission":34.221,"Navigation and Access to Health Programs":31.246,"User Login":49.099
 };
 </script>
 <div class="row">
@@ -403,18 +535,18 @@ var timeline = {
 <script>
 var statusGroup = {
 parentCount: 5,
-passParent: 2,
+passParent: 3,
 failParent: 0,
 warningParent: 0,
 skipParent: 0,
 childCount: 5,
-passChild: 5,
+passChild: 7,
 failChild: 0,
 warningChild: 0,
 skipChild: 0,
 infoChild: 0,
 grandChildCount: 5,
-passGrandChild: 19,
+passGrandChild: 35,
 failGrandChild: 0,
 warningGrandChild: 0,
 skipGrandChild: 0,

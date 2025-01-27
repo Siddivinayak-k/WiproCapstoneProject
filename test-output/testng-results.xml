@@ -1,101 +1,143 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="20" passed="20" failed="0" skipped="0">
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-25T21:04:20 IST" name="Suite" finished-at="2025-01-25T21:05:21 IST" duration-ms="60302">
+  <suite started-at="2025-01-27T01:28:54 IST" name="Suite" finished-at="2025-01-27T01:30:50 IST" duration-ms="115962">
     <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunners.TestRunner@6200f9cb]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
     </groups>
-    <test started-at="2025-01-25T21:04:20 IST" name="Test" finished-at="2025-01-25T21:05:21 IST" duration-ms="60302">
-      <class name="automatedtest.CapstoneProject">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:automatedtest.CapstoneProject@7bedc48a]" started-at="2025-01-25T21:04:20 IST" name="setUp" finished-at="2025-01-25T21:04:32 IST" duration-ms="12082" status="PASS">
+    <test started-at="2025-01-27T01:28:54 IST" name="Test" finished-at="2025-01-27T01:30:50 IST" duration-ms="115962">
+      <class name="testrunners.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testrunners.TestRunner@6200f9cb]" started-at="2025-01-27T01:28:54 IST" name="setUpClass" finished-at="2025-01-27T01:28:55 IST" duration-ms="547" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4be490da]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyNavigationMenu()[pri:1, instance:automatedtest.CapstoneProject@7bedc48a]" started-at="2025-01-25T21:04:33 IST" name="verifyNavigationMenu" finished-at="2025-01-25T21:04:33 IST" duration-ms="70" status="PASS">
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunners.TestRunner@6200f9cb]" started-at="2025-01-27T01:28:55 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-27T01:29:15 IST" duration-ms="20100" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successful Form Submission with Valid Data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Contact Form Submission"]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyNavigationMenu -->
-        <test-method signature="verifyNavigationElement_1()[pri:2, instance:automatedtest.CapstoneProject@7bedc48a]" started-at="2025-01-25T21:04:33 IST" name="verifyNavigationElement_1" finished-at="2025-01-25T21:04:33 IST" duration-ms="50" status="PASS">
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunners.TestRunner@6200f9cb]" started-at="2025-01-27T01:29:15 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-27T01:29:29 IST" duration-ms="14264" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Form Submission with Missing Required Fields"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Contact Form Submission"]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyNavigationElement_1 -->
-        <test-method signature="verifyNavigationElement_2()[pri:3, instance:automatedtest.CapstoneProject@7bedc48a]" started-at="2025-01-25T21:04:33 IST" name="verifyNavigationElement_2" finished-at="2025-01-25T21:04:33 IST" duration-ms="52" status="PASS">
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunners.TestRunner@6200f9cb]" started-at="2025-01-27T01:29:29 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-27T01:29:40 IST" duration-ms="10555" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Navigate to Health Programs"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Navigation and Access to Health Programs"]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyNavigationElement_2 -->
-        <test-method signature="verifyNavigationElement_3()[pri:4, instance:automatedtest.CapstoneProject@7bedc48a]" started-at="2025-01-25T21:04:33 IST" name="verifyNavigationElement_3" finished-at="2025-01-25T21:04:33 IST" duration-ms="51" status="PASS">
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunners.TestRunner@6200f9cb]" started-at="2025-01-27T01:29:40 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-27T01:30:01 IST" duration-ms="20733" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Access Program Details"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Navigation and Access to Health Programs"]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyNavigationElement_3 -->
-        <test-method signature="verifyNavigationElement_4()[pri:5, instance:automatedtest.CapstoneProject@7bedc48a]" started-at="2025-01-25T21:04:33 IST" name="verifyNavigationElement_4" finished-at="2025-01-25T21:04:33 IST" duration-ms="68" status="PASS">
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunners.TestRunner@6200f9cb]" started-at="2025-01-27T01:30:01 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-27T01:30:13 IST" duration-ms="12007" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with registered credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Login"]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyNavigationElement_4 -->
-        <test-method signature="verifyNavigationElement_5()[pri:6, instance:automatedtest.CapstoneProject@7bedc48a]" started-at="2025-01-25T21:04:33 IST" name="verifyNavigationElement_5" finished-at="2025-01-25T21:04:33 IST" duration-ms="62" status="PASS">
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunners.TestRunner@6200f9cb]" started-at="2025-01-27T01:30:13 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-27T01:30:25 IST" duration-ms="12134" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with invalid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Login"]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyNavigationElement_5 -->
-        <test-method signature="verifyNavigationElement_6()[pri:7, instance:automatedtest.CapstoneProject@7bedc48a]" started-at="2025-01-25T21:04:33 IST" name="verifyNavigationElement_6" finished-at="2025-01-25T21:04:33 IST" duration-ms="63" status="PASS">
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunners.TestRunner@6200f9cb]" started-at="2025-01-27T01:30:25 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-27T01:30:50 IST" duration-ms="24977" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with forgotten password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Login"]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyNavigationElement_6 -->
-        <test-method signature="verifyNavigationElement_7()[pri:8, instance:automatedtest.CapstoneProject@7bedc48a]" started-at="2025-01-25T21:04:33 IST" name="verifyNavigationElement_7" finished-at="2025-01-25T21:04:33 IST" duration-ms="58" status="PASS">
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testrunners.TestRunner@6200f9cb]" started-at="2025-01-27T01:30:50 IST" name="tearDownClass" finished-at="2025-01-27T01:30:50 IST" duration-ms="610" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyNavigationElement_7 -->
-        <test-method signature="searchBarFunctionality()[pri:9, instance:automatedtest.CapstoneProject@7bedc48a]" started-at="2025-01-25T21:04:33 IST" name="searchBarFunctionality" finished-at="2025-01-25T21:04:35 IST" duration-ms="2134" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchBarFunctionality -->
-        <test-method signature="verifyHealthProgram_1()[pri:10, instance:automatedtest.CapstoneProject@7bedc48a]" started-at="2025-01-25T21:04:35 IST" name="verifyHealthProgram_1" finished-at="2025-01-25T21:04:37 IST" duration-ms="1555" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyHealthProgram_1 -->
-        <test-method signature="verifyHealthProgram_2()[pri:11, instance:automatedtest.CapstoneProject@7bedc48a]" started-at="2025-01-25T21:04:37 IST" name="verifyHealthProgram_2" finished-at="2025-01-25T21:04:39 IST" duration-ms="2444" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyHealthProgram_2 -->
-        <test-method signature="verifyHealthProgram_3()[pri:12, instance:automatedtest.CapstoneProject@7bedc48a]" started-at="2025-01-25T21:04:39 IST" name="verifyHealthProgram_3" finished-at="2025-01-25T21:04:41 IST" duration-ms="1908" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyHealthProgram_3 -->
-        <test-method signature="verifyHealthProgram_4()[pri:13, instance:automatedtest.CapstoneProject@7bedc48a]" started-at="2025-01-25T21:04:41 IST" name="verifyHealthProgram_4" finished-at="2025-01-25T21:04:47 IST" duration-ms="5689" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyHealthProgram_4 -->
-        <test-method signature="contactUsPageAddress()[pri:14, instance:automatedtest.CapstoneProject@7bedc48a]" started-at="2025-01-25T21:04:47 IST" name="contactUsPageAddress" finished-at="2025-01-25T21:04:49 IST" duration-ms="1769" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- contactUsPageAddress -->
-        <test-method signature="contactUsPageCallUs()[pri:15, instance:automatedtest.CapstoneProject@7bedc48a]" started-at="2025-01-25T21:04:49 IST" name="contactUsPageCallUs" finished-at="2025-01-25T21:04:49 IST" duration-ms="956" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- contactUsPageCallUs -->
-        <test-method signature="contactUsPageFax()[pri:16, instance:automatedtest.CapstoneProject@7bedc48a]" started-at="2025-01-25T21:04:49 IST" name="contactUsPageFax" finished-at="2025-01-25T21:04:50 IST" duration-ms="825" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- contactUsPageFax -->
-        <test-method signature="contactUsPageEmailUs()[pri:17, instance:automatedtest.CapstoneProject@7bedc48a]" started-at="2025-01-25T21:04:50 IST" name="contactUsPageEmailUs" finished-at="2025-01-25T21:04:51 IST" duration-ms="836" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- contactUsPageEmailUs -->
-        <test-method signature="verifyForm()[pri:18, instance:automatedtest.CapstoneProject@7bedc48a]" started-at="2025-01-25T21:04:51 IST" name="verifyForm" finished-at="2025-01-25T21:04:56 IST" duration-ms="4882" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyForm -->
-        <test-method signature="userLogin()[pri:19, instance:automatedtest.CapstoneProject@7bedc48a]" started-at="2025-01-25T21:04:56 IST" name="userLogin" finished-at="2025-01-25T21:05:13 IST" duration-ms="16496" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- userLogin -->
-        <test-method signature="passwordRecovery()[pri:20, instance:automatedtest.CapstoneProject@7bedc48a]" started-at="2025-01-25T21:05:13 IST" name="passwordRecovery" finished-at="2025-01-25T21:05:20 IST" duration-ms="7117" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- passwordRecovery -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:automatedtest.CapstoneProject@7bedc48a]" started-at="2025-01-25T21:05:20 IST" name="tearDown" finished-at="2025-01-25T21:05:21 IST" duration-ms="1035" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- automatedtest.CapstoneProject -->
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testrunners.TestRunner -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

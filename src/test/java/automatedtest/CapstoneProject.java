@@ -1,40 +1,30 @@
 package automatedtest;
 
 import org.openqa.selenium.*;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.io.FileHandler;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-import com.aventstack.extentreports.ExtentReports;
-import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
-import utilities.ExtentReportManager;
+import testbaseclass.BaseClass;
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
-import java.io.File;
 import java.io.IOException;
-import java.text.SimpleDateFormat;
-import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
-public class CapstoneProject {
-	WebDriver driver;
-	ExtentReports extent;
-	ExtentTest test;
-	WebDriverWait wait;
+public class CapstoneProject extends BaseClass {
+//	WebDriver driver;
+//	ExtentReports extent;
+//	ExtentTest test;
+//	WebDriverWait wait;
 
-	@BeforeClass
-	public void setUp() {
-		ExtentReportManager ex = new ExtentReportManager();
-		extent = ex.getReportInstance();
-		driver = new ChromeDriver();
-		driver.manage().window().maximize();
-		driver.get("https://westfloridaahec.org/");
-	}
+//	@BeforeClass
+//	public void setUp() {
+//		ExtentReportManager ex = new ExtentReportManager();
+//		extent = ex.getReportInstance();
+//		driver = new ChromeDriver();
+//		driver.manage().window().maximize();
+//		driver.get("https://westfloridaahec.org/");
+//	}
 
 	@Test(priority = 1)
 	public void verifyNavigationMenu() {
@@ -371,32 +361,24 @@ public class CapstoneProject {
 			phoneNumber.sendKeys("9876543321");
 			WebElement email = driver.findElement(By.id("cog-2"));
 			email.sendKeys("johndoe@gmail.com");
-			WebElement checkbox1 = driver.findElement(By.xpath(
-					"//*[@id=\"post-500\"]/div/div[1]/div/div[1]/div/form/div/div/div[1]/div/div[4]/fieldset[1]/div[1]/div[1]/div/label[1]/span[1]/span"));
+			WebElement checkbox1 = driver.findElement(By.xpath("//*[@id=\"post-500\"]/div/div[1]/div/div[1]/div/form/div/div/div[1]/div/div[4]/fieldset[1]/div[1]/div[1]/div/label[1]/span[1]/span"));
 			checkbox1.click();
-			WebElement checkbox2 = driver.findElement(By.xpath(
-					"//*[@id=\"post-500\"]/div/div[1]/div/div[1]/div/form/div/div/div[1]/div/div[4]/fieldset[1]/div[1]/div[1]/div/label[2]/span[1]/span"));
+			WebElement checkbox2 = driver.findElement(By.xpath("//*[@id=\"post-500\"]/div/div[1]/div/div[1]/div/form/div/div/div[1]/div/div[4]/fieldset[1]/div[1]/div[1]/div/label[2]/span[1]/span"));
 			checkbox2.click();
-			WebElement country = driver.findElement(By.xpath(
-					"//*[@id=\"post-500\"]/div/div[1]/div/div[1]/div/form/div/div/div[1]/div/div[4]/fieldset[2]/div[1]/div[1]/div/label[2]/span[1]/span"));
+			WebElement country = driver.findElement(By.xpath("//*[@id=\"post-500\"]/div/div[1]/div/div[1]/div/form/div/div/div[1]/div/div[4]/fieldset[2]/div[1]/div[1]/div/label[2]/span[1]/span"));
 			country.click();
-			WebElement classFormat = driver.findElement((By.xpath(
-					"//*[@id=\"post-500\"]/div/div[1]/div/div[1]/div/form/div/div/div[1]/div/div[5]/fieldset/div[1]/div[1]/div/label[2]/span[1]/span")));
+			WebElement classFormat = driver.findElement((By.xpath("//*[@id=\"post-500\"]/div/div[1]/div/div[1]/div/form/div/div/div[1]/div/div[5]/fieldset/div[1]/div[1]/div/label[2]/span[1]/span")));
 			classFormat.click();
 			WebElement dropDown = driver.findElement(By.id("cog-6"));
 			dropDown.click();
 			Actions ac = new Actions(driver);
-			WebElement select = driver.findElement(By.xpath(
-					"//*[@id=\"cog-6-option-An individual looking to take classes wherever they may be available in my county\"]/div/span"));
+			WebElement select = driver.findElement(By.xpath("//*[@id=\"cog-6-option-An individual looking to take classes wherever they may be available in my county\"]/div/span"));
 			ac.moveToElement(select);
 			ac.click(select).build().perform();
 			driver.findElement(By.id("cog-7")).sendKeys("Internet");
-			WebElement checkbox3 = driver.findElement(By.xpath(
-					"//*[@id=\"post-500\"]/div/div[1]/div/div[1]/div/form/div/div/div[1]/div/div[8]/div/div[1]/label/span[1]/span"));
+			WebElement checkbox3 = driver.findElement(By.xpath("//*[@id=\"post-500\"]/div/div[1]/div/div[1]/div/form/div/div/div[1]/div/div[8]/div/div[1]/label/span[1]/span"));
 			checkbox3.click();
-			driver.findElement(
-					By.xpath("//*[@id=\"post-500\"]/div/div[1]/div/div[1]/div/form/div/div/div[1]/div/div[10]/button"))
-					.click();
+			driver.findElement(By.xpath("//span[@class='cog-button__text']")).click();
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -464,18 +446,18 @@ public class CapstoneProject {
 	}
 
 	// Utility method for capturing screenshots
-	public static String captureScreenshot(WebDriver driver) throws IOException {
-		TakesScreenshot ts = (TakesScreenshot) driver;
-		File source = ts.getScreenshotAs(OutputType.FILE);
-		String timestamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
-		String filePath = "target/screenshots/screenshot_" + timestamp + ".png";
-		FileHandler.copy(source, new File(filePath));
-		return filePath;
-	}
+//	public static String captureScreenshot(WebDriver driver) throws IOException {
+//		TakesScreenshot ts = (TakesScreenshot) driver;
+//		File source = ts.getScreenshotAs(OutputType.FILE);
+//		String timestamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
+//		String filePath = "target/screenshots/screenshot_" + timestamp + ".png";
+//		FileHandler.copy(source, new File(filePath));
+//		return filePath;
+//	}
 
-	@AfterClass
-	public void tearDown() {
-		extent.flush();
-		driver.quit();
-	}
+//	@AfterClass
+//	public void tearDown() {
+//		extent.flush();
+//		driver.quit();
+//	}
 }
